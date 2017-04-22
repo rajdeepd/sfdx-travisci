@@ -4,7 +4,8 @@ env:
   - URL=https://developer.salesforce.com/media/salesforce-cli/sfdx-v5.6.22-f9533ba-linux-amd64.tar.xz
 
 before_install:
-  - openssl aes-256-cbc -K $encrypted_939c08394e3d_key -iv $encrypted_939c08394e3d_iv -in assets/server.key.enc -out assets/server.key -d
+#  - openssl aes-256-cbc -K $encrypted_939c08394e3d_key -iv $encrypted_939c08394e3d_iv -in assets/server.key.enc -out assets/server.key -d
+  - openssl aes-256-cbc -K 567600609A94DFBA9572905372581DBE61ADC98CC07923696034FEF8ECBE362D -iv F92DE8C4929D142B316B8978F9B21D50 -in assets/server.key.enc -out assets/server.key -d
   - wget -qO- $URL | tar xJf -
   - ./heroku/install
   - export PATH=./heroku/$(pwd):$PATH
@@ -20,3 +21,5 @@ script:
   - sfdx force:apex:test:run -c -r human
   - sleep 4m
   - sfdx force:org:delete -u ciorg -p
+
+

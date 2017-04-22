@@ -1,8 +1,15 @@
 {
+<<<<<<< HEAD
   "Company": "rdua Company",
   "Country": "US",
   "LastName": "rdua",
   "Email": "rdua@example.com",
+=======
+  "Company": "wade.wegner Company",
+  "Country": "US",
+  "LastName": "wade.wegner",
+  "Email": "wade.wegner@xxx.com",
+>>>>>>> upstream/master
   "Edition": "Developer",
   "OrgPreferences" : {
     "S1DesktopEnabled" : true
