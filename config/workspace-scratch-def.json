@@ -1,0 +1,10 @@
+{
+  "Company": "rdua Company",
+  "Country": "US",
+  "LastName": "rdua",
+  "Email": "rdua@example.com",
+  "Edition": "Developer",
+  "OrgPreferences" : {
+    "S1DesktopEnabled" : true
+  }
+}
