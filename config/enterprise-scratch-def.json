@@ -1,0 +1,11 @@
+{
+  "Company": "Salesforce.com",
+  "Country": "US",
+  "LastName": "Dua",
+  "Email": "dua_rajdeep@yahoo.com",
+  "Edition": "Enterprise",
+  "OrgPreferences" : {
+     "S1DesktopEnabled" : true,
+     "ChatterEnabled" : false
+  }
+}
